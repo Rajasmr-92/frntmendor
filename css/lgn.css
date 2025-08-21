@@ -45,3 +45,6 @@ ul{
     background-color: rgb(204, 204, 241,0.2);
     border-radius: 15px;
 }
+ol li{
+    font-size: 12px;
+}
