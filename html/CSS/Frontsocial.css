@@ -1,0 +1,14 @@
+.container{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);
+   width: 400px;
+   flex-direction: column;
+   border-radius: 18px;
+   margin-left: 25rem;
+   padding: 2rem;
+   font-family: 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+}

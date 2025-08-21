@@ -5,8 +5,9 @@
    width: 400px;
    flex-direction: column;
    border-radius: 18px;
-   margin-left: 22rem;
+   margin-left: 25rem;
    padding: 2rem;
+   font-family: 'Times New Roman', serif;
 }
 .mlt1 img{
     width: 400px;
@@ -46,7 +47,8 @@ ul{
     border-radius: 15px;
 }
 ol li{
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 20px;
 }
 table{
     width: 100%;
