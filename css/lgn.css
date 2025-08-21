@@ -1,0 +1,47 @@
+.container{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(255, 255, 255);
+   width: 400px;
+   flex-direction: column;
+   border-radius: 18px;
+   margin-left: 22rem;
+   padding: 2rem;
+}
+.mlt1 img{
+    width: 400px;
+    border-radius: 15px;
+    height: 200px;
+}
+.omhead1 p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+.ompara{
+    font-size: 12px;
+    margin-top: -1rem;
+}
+body{
+    background-color: rgb(243, 193, 193);
+}
+ul label{
+    font-size: 15px;
+    font-weight: bold;
+}
+ul li{
+    font-size: 12px;
+}
+ul{
+    line-height: 22px;
+}
+.pretime p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.pretime{
+    padding: 10px;
+    background-color: rgb(204, 204, 241,0.2);
+    border-radius: 15px;
+}
