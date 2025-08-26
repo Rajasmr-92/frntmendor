@@ -1,0 +1,78 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("download.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #262626;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgb(0, 0,0,0.5);
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    width: 50%;
+    background-image: url("teacup.jpg");
+    height: 400px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.right{
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgba(114, 169, 241, 0.2);
+}
+.boxform{
+    width: 100%;
+    padding: 80px 40px;
+}
+.boxform p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.boxform input{
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.boxform input[type="text"],
+.boxform input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    outline: none;
+    height: 40px;
+}
+.boxform input[type="text"]:focus,
+.boxform input[type="password"]:focus
+{
+    border-bottom: 2px solid black;
+}
+.submit
+{
+    background-color: #262626;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+}

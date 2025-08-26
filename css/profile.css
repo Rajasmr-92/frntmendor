@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #3987d8;
+}
+.shadcoloright{
+    background-color: rgb(140, 182, 245,0.5);
+    width: 50%;
+    height: 300px;
+    border-top-left-radius: 500%; 
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}
+.shadcolorleft{
+    background-color: rgb(140, 182, 245,0.5);
+    width: 50%;
+    height: 300px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 500%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 22%;
+    height: 350px;
+    background-color: white;
+    margin: 0 auto;
+    opacity: 2;
+    position: relative;
+    top: 150px; 
+    border-radius: 20px;
+}
+.container .top{
+    height: 35%;
+    background: linear-gradient(#e433cc, #9198e9,#35c6eb);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.prof img{
+    width: 100px;
+    height: 100px;
+  border-radius: 50%;
+  margin-left: 6rem;
+  margin-top: -2.8rem;
+}
+.name{
+    margin-top: -0.3rem;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.loc{
+    margin-top: -1rem;
+    text-align: center;
+    font-size: 13px;
+}
+.flp{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    margin-top: 3.5rem;
+    line-height: 1px;
+}
+.flp p{
+    font-size: 13px;
+    text-align: center;
+}
+.flptitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-top: -0.5rem;
+}
