@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: url("download.jpeg");
+    background-image: url("/Images/download.jpeg");
     background-size: cover;
     font-family: sans-serif;
 }
@@ -21,7 +21,7 @@ body{
 .left{
     float: left;
     width: 50%;
-    background-image: url("teacup.jpg");
+    background-image: url("/Images/teacup.jpg");
     height: 400px;
     background-size: cover;
     border-radius: 5px;
